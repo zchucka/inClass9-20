@@ -4,8 +4,8 @@
 //
 //  Created by Chucka, Zachary Tyler on 9/20/18.
 //  Copyright © 2018 Chucka, Zachary Tyler. All rights reserved.
-//
-
+// icon from: <div>Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+// resize by clicking go to tools then drag image into xcassests
 import UIKit
 
 // MARK: - Project Structure
@@ -61,7 +61,7 @@ class ViewController: UIViewController {
         
         let question = quizModel.getNextQuestion()
         questionLabel.text = question
-        answerLabel.text = "answer"
+        answerLabel.text = "<Answer>"
     }
     
     @IBAction func showCurrentAnswerPressed(_ sender: UIButton)
